@@ -15,6 +15,11 @@ html {
     src: url(assets/fonts/RobotoSlab-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: tiro;
+    src: url(assets/fonts/TiroBangla-Regular.ttf);
+}
+
 #title {
     margin-bottom: 10px;
     margin-left: auto;
@@ -38,17 +43,40 @@ html {
     padding: 10px;
 }
 
+
+
+
+
+
+
+
 .posttitle {
     color: black;
     font-style: italic;
 }
 
-.postcontent {
-        
+.dateposted {
+    color:blueviolet;
 }
 
 
-@media screen and (max-width: 600px) {
+.postcontent {
+    font-family: tiro;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 999px) {
 
     .blogbox {
         width: 100%;
@@ -57,7 +85,16 @@ html {
     #wrapper {
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 90%;
     }
+
+}
   
-  }
+
+
+
+@media (min-width: 1000px) {
+
+    
+
+}
