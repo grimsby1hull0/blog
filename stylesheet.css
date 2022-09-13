@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    color: white;
+  }
+
+html {
+    background-color: rgb(66, 66, 66);
+    font-family: robotoslab;
+}
+
+@font-face {
+    font-family: robotoslab;
+    src: url(assets/fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+#title {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 805px;
+}
+
+.blogbox {
+    background-color: lightblue;
+    border-style: solid;
+    border-color:black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.posttitle {
+    color: black;
+    font-style: italic;
+}
+
+.postcontent {
+        
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .blogbox {
+        width: 100%;
+    }
+
+    #wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+  
+  }
